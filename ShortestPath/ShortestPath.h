@@ -17,7 +17,7 @@ private:
 	vector<int> p;
 
 public:
-	ShortestPath() {};
+	ShortestPath() {}
 	ShortestPath(int size);
 	void addEdge(int u, int v, int w);
 	void InitializeSingleSource(int s);
